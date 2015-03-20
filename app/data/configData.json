@@ -25,5 +25,33 @@
   "enableRealTimeBetCombinations": false,
   "omnitureTrackingEnabled": true,
   "sportsbetTrackingAccount": "sportsbet-prd",
-  "sportsbetMainWebsiteUrl": "http://www.sportsbet.com.au"
+  "sportsbetMainWebsiteUrl": "http://www.sportsbet.com.au",
+  "externalUrls": {
+    "rightNow": {
+      "host": "https://help.sportsbet.com.au",
+      "urls": {
+        "about-us": "/app/answers/detail/a_id/19",
+        "help": "/",
+        "terms-conditions": "/app/answers/detail/a_id/16/c/7",
+        "responsible-gambling": "/app/answers/detail/a_id/17",
+        "privacy-security": "/app/answers/detail/a_id/20/kw/privacy",
+        "cash-faqs": "/app/answers/detail/a_id/182",
+        "live-chat": "/app/chat/chat_launch",
+        "cash-terms": "/app/answers/detail/a_id/191"
+      }
+    },
+    "direct": {
+      "sportsbet-tipping": "https://m.sportsbet.com.au/tipping",
+      "tipping": "https://m.sportsbet.com.au/tipping",
+      "live-chat": "https://help.sportsbet.com.au/app/chat/chat_launch",
+      "sportsbet-card": "http://www.sportsbet.com.au/account/cash/transactions"
+    },
+    "pdf": {
+      "host": "http://i.sbstatic.com.au",
+      "urls": {
+        "cash-disclosure-statement": "/marketing/documents/Sportsbet-Cash-PDS.pdf",
+        "cash-financial-guide": "/marketing/documents/Sportsbet-Cash-FSG.pdf"
+      }
+    }
+  }
 }

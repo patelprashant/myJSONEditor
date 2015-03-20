@@ -81,3 +81,10 @@ body {
     border-bottom: 0;
   }
 }
+
+
+/*JSON- Edit*/
+#jsonTextarea {
+    width: 100%;
+    height: 450px;
+}

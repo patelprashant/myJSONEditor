@@ -8,7 +8,7 @@
  * Controller of the myJsonEditorApp
  */
 angular.module('myJsonEditorApp')
-        .controller('MainCtrl', function ($scope,  $filter, configData) {
+        .controller('MainCtrl', function ($scope, $filter, configData) {
             $scope.jsonData = configData.getdata();
 
             $scope.$watch('jsonData', function (json) {
@@ -26,7 +26,19 @@ angular.module('myJsonEditorApp')
 
 
             $scope.save = function () {
-                console.log('data saved');
+                //console.log('data saved');
+                var data = "tste";
+                var dataAsBlob = new Blob([data], {type: 'text/json'});
+                var fileNameToSaveAs = "testingfile.json";
+                var downloadLink = document.createElement("a");
+                downloadLink.download = fileNameToSaveAs;
+                downloadLink.innerHTML = "Download File";
+                if (window.webkitURL != null)
+                {
+                    // Chrome allows the link to be clicked
+                    // without actually adding it to the DOM.
+                    downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+                }
             };
 
 

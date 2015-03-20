@@ -29,27 +29,54 @@
 
 </pre>-->
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
-        <form class="form-horizontal">
-<!--            <div class="form-group" ng-repeat="(key, value) in d.content">
-                <label class="col-sm-6 control-label" for="{{key}}">{{key}}</label>
-                <div class="col-sm-6">
-                    <input type="text" id="{{key}}" class="form-control" value="{{value}}"/>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-offset-6 col-sm-6">
-                    <button type="submit" class="btn btn-default"ng-click="save()">Save</button>
-                </div>
-            </div>-->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Save config
+        </button>
+    </div>
+
+    <div class="row">
+        <form>
+            <!--            <div class="form-group" ng-repeat="(key, value) in d.content">
+                            <label class="col-sm-6 control-label" for="{{key}}">{{key}}</label>
+                            <div class="col-sm-6">
+                                <input type="text" id="{{key}}" class="form-control" value="{{value}}"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-6 col-sm-6">
+                                <button type="submit" class="btn btn-default"ng-click="save()">Save</button>
+                            </div>
+                        </div>-->
             <div class="jsonView">
                 <json child="jsonData.content" default-collapsed="false" type="object"></json>
             </div>
         </form>
     </div>
-    <div class="row" ng-hide="">
-        <textarea id="jsonTextarea" ng-model="jsonString"></textarea>
-        <span class="red" ng-if="!wellFormed">JSON not well-formed!</span>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Save Configuration</h4>
+                </div>
+                <div class="modal-body">
+                    <textarea id="jsonTextarea" ng-model="jsonString"></textarea>
+                    <span class="red" ng-if="!wellFormed">JSON not well-formed!</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" ng-click="save()">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!--    <div class="row" ng-hide="">
+            <textarea id="jsonTextarea" ng-model="jsonString"></textarea>
+            <span class="red" ng-if="!wellFormed">JSON not well-formed!</span>
+        </div>-->
 </div>
