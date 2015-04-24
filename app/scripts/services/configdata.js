@@ -7,8 +7,7 @@
  * # configData
  * Provider in the myJsonEditorApp.
  */
-angular.module('myJsonEditorApp')
-        .provider('configData', function () {
+app.provider('configData', function () {
 
             this.dataUrl = 'http://localhost:9000/data/configData.json';
 

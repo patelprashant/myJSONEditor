@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "553997cec03eb5e0ca48a3d9",
+    "index": 0,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "name": "Marcie Sawyer",
+    "gender": "female",
+    "company": "BIZMATIC",
+    "email": "marciesawyer@bizmatic.com",
+    "password": "Imadmin010",
+    "phone": "+61 (810) 576-3919",
+    "registered": "2014-08-31T15:34:25 -10:00"
+  },
+  {
+    "_id": "553997ce9c547bcffac89b20",
+    "index": 1,
+    "isActive": true,
+    "picture": "http://placehold.it/32x32",
+    "age": 31,
+    "name": "Delaney Hebert",
+    "gender": "male",
+    "company": "JETSILK",
+    "email": "delaneyhebert@jetsilk.com",
+    "password": "Imadmin010",
+    "phone": "+61 (967) 524-2456",
+    "registered": "2014-03-16T00:07:16 -11:00"
+  },
+  {
+    "_id": "553997ce56694e57f1a97483",
+    "index": 2,
+    "isActive": true,
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "name": "Tommie Joyner",
+    "gender": "female",
+    "company": "CHORIZON",
+    "email": "tommiejoyner@chorizon.com",
+    "password": "Imadmin010",
+    "phone": "+61 (901) 471-3584",
+    "registered": "2014-07-31T09:00:50 -10:00"
+  },
+  {
+    "_id": "553997ce3b3fc8abe7a0b063",
+    "index": 3,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "name": "Antoinette Mccoy",
+    "gender": "female",
+    "company": "SLOGANAUT",
+    "email": "antoinettemccoy@sloganaut.com",
+    "password": "Imadmin010",
+    "phone": "+61 (971) 541-2348",
+    "registered": "2015-03-28T20:49:14 -11:00"
+  },
+  {
+    "_id": "553997ce2195623245d7c5b7",
+    "index": 4,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "name": "Cora Lee",
+    "gender": "female",
+    "company": "TERAPRENE",
+    "email": "coralee@teraprene.com",
+    "password": "Imadmin010",
+    "phone": "+61 (951) 464-3716",
+    "registered": "2014-10-07T15:12:13 -11:00"
+  }
+]

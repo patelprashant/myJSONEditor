@@ -1,3 +1,5 @@
+/* global app */
+
 'use strict';
 
 /**
@@ -7,8 +9,8 @@
  * # AboutCtrl
  * Controller of the myJsonEditorApp
  */
-angular.module('myJsonEditorApp')
-  .controller('AboutCtrl', function ($scope) {
+
+app.controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
