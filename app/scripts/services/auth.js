@@ -31,7 +31,6 @@ app.factory('AuthenticationService',
             //    .success(function (response) {
             //        callback(response);
             //    });
-
         };
 
         service.SetCredentials = function (username, password) {
@@ -139,6 +138,4 @@ app.factory('AuthenticationService',
             return output;
         }
     };
-
-    /* jshint ignore:end */
 });

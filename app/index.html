@@ -34,18 +34,18 @@
                             <span class="icon-bar"></span>
                         </button>
 
-                        <a class="navbar-brand" href="#/">JsonEditor</a>
+                        <a class="navbar-brand" href="#/">Config Editor</a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
                         <ul class="nav navbar-nav pull-left">
-                            <li><a href="#/">Home</a></li>
-                            <li><a ng-href="#/main">Main</a></li>
+<!--                            <li><a href="#/">Home</a></li>-->
+<!--                            <li><a ng-href="#/main">Main</a></li>-->
                             <li><a ng-href="#/about">About</a></li>
                         </ul>
                         <ul class="nav navbar-nav pull-right">
-                            <li class=""><a ng-href="/" ng-show="isAuthed()">Logout</a></li>
+                            <li class=""><a ng-href="#/" ng-show="{{currentUser}}">Logout</a></li>
                         </ul>
                     </div>
                 </div>

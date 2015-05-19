@@ -80,14 +80,31 @@ body {
 
 
 /*JSON- Edit*/
+.jsonLiteral{
+    margin: 0 0 0 10px;
+}
 #jsonTextarea {
     width: 100%;
     height: 450px;
 }
-
+.jsonContents{
+    margin: 0 0 0 10px;
+}
 
 
 /*Login form*/
+#user-icon{
+    width: 100%;
+    text-align: center;
+}
+.glyphicon-user{
+    //display: block;
+    margin: 0 auto;
+    font-size: 3em;
+    border: 1px solid grey;
+    border-radius: 30%;
+    padding: 10px;
+}
 .form-signin
 {
     max-width: 330px;
@@ -162,4 +179,8 @@ body {
 {
     display: block;
     margin-top: 10px;
+}
+
+button[my-download] > a{
+  color: white;
 }
